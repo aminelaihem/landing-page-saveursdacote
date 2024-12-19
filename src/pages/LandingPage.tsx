@@ -141,69 +141,8 @@ export function LandingPage() {
         </div>
       </section>
 
-      {/* Newsletter */}
-      <section className="py-24 bg-gradient-to-br from-orange-50 to-orange-100 relative overflow-hidden">
-        <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0zNiAxOGMtOS45NDEgMC0xOCA4LjA1OS0xOCAxOHM4LjA1OSAxOCAxOCAxOGM5Ljk0MSAwIDE4LTguMDU5IDE4LTE4cy04LjA1OS0xOC0xOC0xOHptMCAzMmMtNy43MzIgMC0xNC02LjI2OC0xNC0xNHM2LjI2OC0xNCAxNCAtMTQgMTQgNi4yNjggMTQgMTQtNi4yNjggMTQtMTQgMTR6IiBmaWxsPSIjZmI5MjNjIiBmaWxsLW9wYWNpdHk9Ii4wNSIvPjwvZz48L3N2Zz4=')] opacity-50"></div>
-        
-        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 relative">
-          <div className="text-center mb-12">
-            <span className="inline-block px-4 py-1 bg-orange-100 text-orange-700 rounded-full text-sm font-medium mb-4">Newsletter</span>
-            <h2 className="text-4xl font-bold text-gray-900 mb-4 bg-gradient-to-r from-orange-600 to-orange-400 bg-clip-text text-transparent">
-              Rejoignez l'aventure CuisineConnect
-            </h2>
-            <p className="text-xl text-gray-600 leading-relaxed">
-              Soyez les premiers à découvrir nos nouvelles fonctionnalités, recevoir des recettes exclusives et des conseils de nos chefs.
-            </p>
-          </div>
-
-          <div className="bg-white p-8 rounded-2xl shadow-xl bg-opacity-90 transform hover:scale-[1.02] transition-all duration-300">
-            <form className="space-y-6">
-              <div className="relative">
-                <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
-                  Votre adresse email
-                </label>
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  placeholder="chef@cuisineconnect.fr"
-                  className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-orange-500 focus:border-orange-500 shadow-sm transition-all duration-200"
-                  required
-                />
-              </div>
-              
-              <div className="flex items-start bg-orange-50 p-4 rounded-lg">
-                <input
-                  type="checkbox"
-                  id="updates"
-                  name="updates"
-                  className="mt-1 h-4 w-4 rounded border-gray-300 text-orange-600 focus:ring-orange-500"
-                />
-                <label htmlFor="updates" className="ml-3 text-sm text-gray-600">
-                  Je souhaite recevoir des inspirations culinaires et être informé(e) des nouveautés
-                </label>
-              </div>
-
-              <Button
-                type="submit"
-                variant="primary"
-                fullWidth
-                size="lg"
-                className="mt-6 transform hover:translate-y-[-2px] transition-all duration-200"
-              >
-                Rejoindre la communauté
-              </Button>
-            </form>
-
-            <p className="mt-6 text-sm text-gray-500 text-center">
-              🔒 Vos données sont sécurisées. Désabonnement facile en un clic.
-            </p>
-          </div>
-        </div>
-      </section>
-
       {/* CTA */}
-      <section className="py-24 bg-gradient-to-br from-orange-500 to-orange-600">
+      <section className="py-24 bg-gradient-to-b from-orange-500 to-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold text-white mb-8">
             Prêt à rejoindre l'aventure ?
