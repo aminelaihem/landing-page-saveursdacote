@@ -15,7 +15,7 @@ export function Header() {
           <div className="flex items-center space-x-2">
             <ChefHat className="h-8 w-8 text-orange-500" />
             <a href="/" className="text-2xl font-bold text-gray-900">
-              Cuisine<span className="text-orange-500">Connect</span>
+            Saveurs<span className="text-orange-500"> d’À Côté</span>
             </a>
           </div>
 
