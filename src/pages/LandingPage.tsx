@@ -101,7 +101,7 @@ export function LandingPage() {
             </div>
             <div>
               <h2 className="text-4xl font-bold text-gray-900 mb-8">
-                Pourquoi choisir CuisineConnect ?
+                Pourquoi choisir Saveurs d’À Côté ?
               </h2>
               <div className="space-y-6">
                 {[
